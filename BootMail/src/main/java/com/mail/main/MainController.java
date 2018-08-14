@@ -8,6 +8,6 @@ public class MainController {
 
 	@RequestMapping("/")
 	public String main() {
-		return "index";
+		return "redirect:/login";
 	}
 }
