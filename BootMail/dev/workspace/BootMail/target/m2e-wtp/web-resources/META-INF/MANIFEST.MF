@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: BootMail
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: user
+Implementation-Vendor-Id: com.mail
+Build-Jdk: 1.8.0_161
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/BootMail
+Created-By: Maven Integration for Eclipse
+
