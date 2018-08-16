@@ -9,18 +9,20 @@
 	</head>
 	<body>
 		<div id="loginWrap" class="container">
-			<form action="/loginProcess" method="post">
-				<div class="input-group form-group">
-					<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-					<input type="text" class="form-control" id="userId" name="userId" placeholder="User ID" />
-				</div>
-				<div class="input-group form-group">
-					<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-					<input type="password" class="form-control" id="userPw" name="userPw" placeholder="User Password" />
-				</div>
-		    	<input type="submit" id="loginBtn" name="loginBtn" class="btn btn-info" value="Login" />
-		    	<input type="button" id="regist" name="regist" class="btn btn-info" value="Regist" />
-		    </form>
+			<div class="vertical-container">
+				<form id="loginForm" action="/loginProcess" method="post">
+					<div class="input-group form-group">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+						<input type="text" class="form-control" id="userId" name="userId" placeholder="User ID" />
+					</div>
+					<div class="input-group form-group">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+						<input type="password" class="form-control" id="userPw" name="userPw" placeholder="User Password" />
+					</div>
+			    	<input type="button" id="loginBtn" name="loginBtn" class="btn btn-info" value="Login" />
+			    	<input type="button" id="registBtn" name="registBtn" class="btn btn-info" value="Regist" />
+			    </form>
+		    </div>
 		</div>
 	</body>
 </html>
