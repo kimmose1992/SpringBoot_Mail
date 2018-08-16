@@ -1,4 +1,4 @@
 # SpringBoot_Mail
 
 ## ■ Development Environment
-> Spring Boot + Jsp + Bootstrap + MSSQL + MyBatis + Maven
+> Spring Boot + JQuery + Ajax + Jsp + Bootstrap + MSSQL + MyBatis + Maven
